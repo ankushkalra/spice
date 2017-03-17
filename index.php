@@ -14,7 +14,7 @@
 <body>
 <div class="container" style="width:60%;">
 	<h2 align="center">blalajdklfa;dll</h2>
-	<!-- Random Comment -->
+	<!-- Random Comment 2-->
 	<?php
 	$query = "SELECT * FROM products ORDER BY id ASC";
 	$result = mysqli_query($connect, $query);

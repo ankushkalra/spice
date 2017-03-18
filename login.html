@@ -1,0 +1,102 @@
+<html>
+    <head>
+        <title>Login System - Shiva Spices</title>
+        <style type = "text/css">
+            body {
+                background-color: #e6e6e6;
+                margin: 0px;
+            }
+            
+            #header {
+                height: 120px;
+                background-color: rgb(41,171,226);
+            }
+            
+            #logo {
+                margin-top: 15px;
+                margin-left: 15px;
+            }
+
+            label {
+                display: block;
+                margin-top: 20px;
+                margin-bottom: 0px;
+                margin-left: auto;
+                margin-right: auto;
+                width: 500px;
+                overflow: auto;
+                font-family: sans-serif;
+                font-size: 20px;
+                color: #444;
+                text-shadow: 0 0 2px #ddd;
+                padding: 20px 10px 10px 0;
+            }
+            
+            input[type=text] {
+                float: right;
+                border: 1px solid #dadada;
+                font-size: 20px;
+                padding: 5px;
+                margin-top: -10px;
+            }
+            
+            input[type=password] {
+                float: right;
+                border: 1px solid #dadada;
+                font-size: 20px;
+                padding: 5px;
+                margin-top: -10px;
+            }
+            
+            input[type=submit] {
+                display: block;
+                width: 250px;
+                height: 50px;
+                background-color: rgb(41,171,226);
+                color: white;
+                margin: auto;
+                margin-top: 50px;
+                font-size: 25px;
+                border: none;
+            }
+            
+            input[type=text]:focus {
+                outline: none;
+                border-color: rgb(41,171,226);
+            }
+            
+            input[type=password]:focus {
+                outline: none;
+                border-color: rgb(41,171,226);
+            }
+            
+            input[type=submit]:focus {
+                outline: none;
+                border: none;
+            }
+            
+            #loginBox {
+                padding-top: 10px;
+                margin-left: auto;
+                margin-right: auto;
+                width: 600px;
+                height: 600px;
+                background-color: #fff;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="header">
+            <img id="logo" src="images/Logo.png">
+        </div>
+        <div id="loginBox">
+            <form method="post" action="login.php">
+                <label>Email
+                <input type="text" name="email"></label>
+                <label>Password
+                <input type="password" name="password"></label>
+                <input type="submit" value="Login">
+            </form>
+        </div>
+    </body>
+</html>

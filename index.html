@@ -1,0 +1,115 @@
+<html>
+    <head>
+        <title>Home - Spice Company</title>
+        <style type="text/css">
+			
+			shop {
+				margin-left: auto;
+				margin-right: auto;
+			}
+			
+			div.item-img {
+				margin: 5px;
+				border: 1px solid #ccc;
+				float: left;
+				width: 180px;
+			}
+
+			div.item-img:hover {
+				border: 1px solid #777;
+			}
+
+			div.item-img img {
+				width: 100%;
+				height: auto;
+			}
+
+			div.desc {
+				padding: 2px;
+				text-align: center;
+			}
+			
+            body {
+                margin: 0;
+            }
+            
+            #form1 {
+                display: inline-block;
+                width: 50%;
+				height: 150px;
+                float: left;
+            }
+            
+            #form2 {
+                display: inline-block;
+                width: 50%;
+				height: 150px;
+                float: right;
+            }
+        </style>
+        <link href="header.css" type="text/css" rel="stylesheet">
+        <link href="submit-button.css" type="text/css" rel="stylesheet">
+    </head>
+	
+    <body>
+        <div id="header">
+            <img id="logo" src="images/Logo.png">
+        </div>
+        <form id="form1" method="get" action="register.html">
+            <input type="submit" value="Register">
+        </form>
+        <form id = "form2" method="get" action="login.html">
+            <input type="submit" value="Login">
+        </form>
+		
+		<div id="shop">
+		<div class="item-img">
+			<a target="_blank" href="pepper-550x650.jpg">
+				<img src="pepper-550x650.jpg" alt="Fjords" width="200" height="300">
+			</a>
+			<div class="desc">
+				<form method="post" action = "#">
+					<input type="button" name="addToCart" value="Add to Cart">
+					<input type="button" name="butNow" value="Buy Now">
+				</form>
+			</div>
+		</div> <!-- End of img -->
+
+		<div class="item-img">
+			<a target="_blank" href="jeera-550x650.jpg">
+				<img src="jeera-550x650.jpg" alt="Forest" width="200" height="300">
+			</a>
+			<div class="desc">
+				<form method="post" action = "#">
+					<input type="button" name="addToCart" value="Add to Cart">
+					<input type="button" name="butNow" value="Buy Now">
+				</form>
+			</div>
+		</div> <!-- End of img -->
+
+		<div class="item-img">
+			<a target="_blank" href="coriandr-550x650.jpg">
+				<img src="coriandr-550x650.jpg" alt="Northern Lights" width="200" height="300">
+			</a>
+			<div class="desc">
+				<form method="post" action = "#">
+					<input type="button" name="addToCart" value="Add to Cart">
+					<input type="button" name="butNow" value="Buy Now">
+				</form>
+			</div>
+		</div> <!-- End of img -->
+
+		<div class="item-img">
+			<a target="_blank" href="filter coffee-550x650.jpg">
+				<img src="filter coffee-550x650.jpg" alt="Mountains" width="200" height="300">
+			</a>
+			<div class="desc">
+				<form method="post" action = "#">
+					<input type="button" name="addToCart" value="Add to Cart">
+					<input type="button" name="butNow" value="Buy Now">
+				</form>
+			</div>
+		</div> <!-- End of img -->
+		</div>
+    </body>
+</html>
